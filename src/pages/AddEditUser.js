@@ -32,8 +32,6 @@ const AddEditUser = () => {
         }
     }, [id]);
 
-    console.log(editMode);
-
     const handleSubmit = (e) => {
         e.preventDefault();
         if (name && email && phone && address) {
