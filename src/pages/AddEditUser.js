@@ -38,12 +38,12 @@ const AddEditUser = () => {
             if (!editMode) {
                 dispatch(createUserStart(formValue));
                 toast.success("User Added Successfully");
-                setTimeout(() => navigate("/"), 500);
+                setTimeout(() => navigate("/reduxCrud"), 500);
             } else {
                 dispatch(updateUserStart({ id, formValue }));
                 setEditMode(false);
                 toast.success("User Updated Successfully");
-                setTimeout(() => navigate("/"), 500);
+                setTimeout(() => navigate("/reduxCrud"), 500);
             }
         }
     };
