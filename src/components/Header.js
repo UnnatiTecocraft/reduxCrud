@@ -36,7 +36,9 @@ const Header = () => {
                         <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
                             <MDBNavbarItem>
                                 <MDBNavbarLink className="nav-link">
-                                    <NavLink to="/" className="text-white">
+                                    <NavLink
+                                        to="/reduxCrud"
+                                        className="text-white">
                                         Home
                                     </NavLink>
                                 </MDBNavbarLink>
