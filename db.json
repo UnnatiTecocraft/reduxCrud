@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "James",
+      "email": "james@gmail.com",
+      "phone": "1234567890",
+      "address": "USA"
+    },
+    {
+      "name": "Unnati",
+      "email": "unnati@gmail.com",
+      "phone": "1234567890",
+      "address": "Surat",
+      "id": 2
+    },
+    {
+      "name": "Himanshi",
+      "email": "himanshi@gmail.com",
+      "phone": "1234567890",
+      "address": "Vapi",
+      "id": 3
+    },
+    {
+      "name": "Ramesh",
+      "email": "ramesh@gmail.com",
+      "phone": "7894561230",
+      "address": "USA",
+      "id": 4
+    },
+    {
+      "name": "Jammy Lever",
+      "email": "jammy@gmail.com",
+      "phone": "75395124860",
+      "address": "Mumbai",
+      "id": 5
+    }
+  ]
+}
