@@ -15,7 +15,7 @@ function App() {
                 <ToastContainer />
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/reduxCrud" element={<Home />} />
                     <Route path="/addUser" element={<AddEditUser />} />
                     <Route path="/editUser/:id" element={<AddEditUser />} />
                     <Route path="/userInfo/:id" element={<UserInfo />} />
